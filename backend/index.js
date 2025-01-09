@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors("http://localhost:1010/"));
+app.use(cors("equip9-sagar-k2ljw4esa-sagar-patils-projects-c7009328.vercel.app"));
 
 app.get("/", (req, res) => {
   res.send("HOME PAGE");
